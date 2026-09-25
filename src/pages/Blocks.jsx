@@ -11,6 +11,7 @@ import {
 import PageHeader from '../components/PageHeader'
 import BlockCard from '../components/BlockCard'
 import { blocks, blockCategories } from '../data/blocks'
+import { asset } from '../utils/asset'
 
 export default function Blocks() {
   const [searchParams] = useSearchParams()
@@ -32,7 +33,7 @@ export default function Blocks() {
         eyebrow="Al Harmain Associates"
         title="Gulberg Blocks"
         description="Explore thoughtfully planned communities across Gulberg Greens — from commercial destinations to premium residential and farmhouse areas."
-        image="/src/assets/images/blocks/block-hero-image.webp"
+        image={asset("/src/assets/images/blocks/block-hero-image.webp")}
         breadcrumb={[{ label: 'Gulberg Blocks' }]}
       />
 

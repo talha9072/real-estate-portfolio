@@ -1,3 +1,4 @@
+import { asset } from '../utils/asset'
 // =============================================================
 // PROJECTS DATA
 // 5 Residential Projects
@@ -16,12 +17,12 @@ export const projects = [
     location: 'L Block, Gulberg Greens, Islamabad',
     status: 'Completed',
 
-    image: '/src/assets/images/projects/project1.jpeg',
+    image: asset('/src/assets/images/projects/project1.jpeg'),
 
     gallery: [
-      '/src/assets/images/projects/project1gallery1.jpeg',
-      '/src/assets/images/projects/project1gallery2.jpeg',
-      '/src/assets/images/projects/project1gallery3.jpeg',
+      asset('/src/assets/images/projects/project1gallery1.jpeg'),
+      asset('/src/assets/images/projects/project1gallery2.jpeg'),
+      asset('/src/assets/images/projects/project1gallery3.jpeg'),
     ],
 
     video: null,
@@ -86,12 +87,12 @@ export const projects = [
     location: 'Gulberg Greens, Islamabad',
     status: 'Completed',
 
-    image: '/src/assets/images/projects/project2.jpeg',
+    image: asset('/src/assets/images/projects/project2.jpeg'),
 
     gallery: [
-      '/src/assets/images/projects/project2gallery1.jpeg',
-      '/src/assets/images/projects/project2gallery2.jpeg',
-      '/src/assets/images/projects/project2gallery3.jpeg',
+      asset('/src/assets/images/projects/project2gallery1.jpeg'),
+      asset('/src/assets/images/projects/project2gallery2.jpeg'),
+      asset('/src/assets/images/projects/project2gallery3.jpeg'),
     ],
 
     video: null,
@@ -156,12 +157,12 @@ export const projects = [
     location: 'Gulberg Greens, Islamabad',
     status: 'completed',
 
-    image: '/src/assets/images/projects/project 3.jpeg',
+    image: asset('/src/assets/images/projects/project 3.jpeg'),
 
     gallery: [
-      '/src/assets/images/projects/project1gallery1.jpeg',
-      '/src/assets/images/projects/project1gallery2.jpeg',
-      '/src/assets/images/projects/project1gallery3.jpeg',
+      asset('/src/assets/images/projects/project1gallery1.jpeg'),
+      asset('/src/assets/images/projects/project1gallery2.jpeg'),
+      asset('/src/assets/images/projects/project1gallery3.jpeg'),
     ],
 
     video: null,
@@ -226,12 +227,11 @@ export const projects = [
     location: 'Gulberg Greens, Islamabad',
     status: 'Under Construction',
 
-    image: '/src/assets/images/projects/project4.jpeg',
+    image: asset('/src/assets/images/projects/project4.jpeg'),
 
     gallery: [
-      '/src/assets/images/projects/project4gallery1.jpeg',
-      '/src/assets/images/projects/project4gallery2.jpeg',
-      '/src/assets/images/projects/project4gallery3.jpeg',
+      asset('/src/assets/images/projects/project4gallery1.jpeg'),
+      asset('/src/assets/images/projects/project4gallery2.jpeg'),
     ],
 
     video: null,
@@ -296,12 +296,12 @@ export const projects = [
     location: 'Gulberg Greens, Islamabad',
     status: 'Completed',
 
-    image: '/src/assets/images/projects/project5.jpeg',
+    image: asset('/src/assets/images/projects/project5.jpeg'),
 
     gallery: [
-      '/src/assets/images/projects/project5gallery1.jpeg',
-      '/src/assets/images/projects/project5gallery2.jpeg',
-      '/src/assets/images/projects/project5gallery3.jpeg',
+      asset('/src/assets/images/projects/project5gallery1.jpeg'),
+      asset('/src/assets/images/projects/project5gallery2.jpeg'),
+      asset('/src/assets/images/projects/project5gallery3.jpeg'),
     ],
 
     video: null,
@@ -362,12 +362,12 @@ export const projects = [
     location: 'Gulberg Greens, Islamabad',
     status: 'Planned',
 
-    image: '/src/assets/images/projects/project6.jpeg',
+    image: asset('/src/assets/images/projects/project6.jpeg'),
 
     gallery: [
-      '/src/assets/images/projects/project6gallery1.jpeg',
-      '/src/assets/images/projects/project6gallery2.jpeg',
-      '/src/assets/images/projects/project6gallery3.jpeg',
+      asset('/src/assets/images/projects/project6gallery1.jpeg'),
+      asset('/src/assets/images/projects/project6gallery2.jpeg'),
+      asset('/src/assets/images/projects/project6gallery3.jpeg'),
     ],
 
     video: null,
@@ -429,4 +429,4 @@ export const projects = [
 // =============================================================
 
 export const getProjectById = (id) =>
-  projects.find((project) => project.id === id)
+  projects.find((project) => project.id === id)

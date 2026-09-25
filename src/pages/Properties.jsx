@@ -12,6 +12,7 @@ import {
 import PageHeader from '../components/PageHeader'
 import PropertyCard from '../components/PropertyCard'
 import { properties, propertyTypes, propertyStatuses } from '../data/properties'
+import { asset } from '../utils/asset'
 
 const sortOptions = [
   { id: 'newest', label: 'Newest Listings' },
@@ -99,7 +100,7 @@ export default function Properties() {
         eyebrow="Al Harmain Associates"
         title="Our Properties"
         description="Explore carefully selected residential, commercial and investment opportunities across Islamabad and beyond."
-        image="/src/assets/images/properties/farm1.jpeg"
+        image={asset("/src/assets/images/properties/farm1.jpeg")}
         breadcrumb={[{ label: 'Properties' }]}
       />
 

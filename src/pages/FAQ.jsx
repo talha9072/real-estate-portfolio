@@ -3,6 +3,7 @@ import Accordion from '../components/Accordion'
 import Button from '../components/Button'
 import { faqs } from '../data/faqs'
 import { getWhatsAppLink } from '../utils/whatsapp'
+import { asset } from '../utils/asset'
 
 export default function FAQ() {
   return (
@@ -11,7 +12,7 @@ export default function FAQ() {
         eyebrow="Support"
         title="Frequently Asked Questions"
         description="Answers to common questions about buying, building and our process."
-        image="/src/assets/images/services/interior-hero-image.jpg"
+        image={asset("/src/assets/images/services/interior-hero-image.jpg")}
         breadcrumb={[{ label: 'FAQs' }]}
       />
 

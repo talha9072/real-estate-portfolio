@@ -19,6 +19,7 @@ import SmartImage from '../components/SmartImage'
 import Button from '../components/Button'
 
 import { siteInfo, howWeWork } from '../data/siteData'
+import { asset } from '../utils/asset'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 35 },
@@ -113,7 +114,7 @@ export default function About() {
               <div className="relative overflow-hidden">
 
                 <SmartImage
-                  src="/src/assets/images/about-office.png"
+                  src={asset("/src/assets/images/about-office.png")}
                   alt="Al Harmain Associates"
                   className="h-[460px] w-full object-cover sm:h-[560px]"
                 />
@@ -413,7 +414,7 @@ export default function About() {
 
                 <div className="relative overflow-hidden">
                   <img
-                    src="/src/assets/images/ceo.jpeg"
+                    src={asset("/src/assets/images/ceo.jpeg")}
                     alt={siteInfo.ceo}
                     className="h-[500px] w-full object-cover object-center"
                   />
@@ -556,7 +557,7 @@ export default function About() {
             >
               <div className="overflow-hidden">
                 <SmartImage
-                  src="/src/assets/images/blocks/block-hero-image.webp"
+                  src={asset("/src/assets/images/blocks/block-hero-image.webp")}
                   alt="Gulberg Greens Islamabad"
                   className="h-[400px] w-full object-cover opacity-90 transition duration-700 hover:scale-105"
                 />
@@ -648,7 +649,7 @@ export default function About() {
       <section className="relative overflow-hidden bg-ink-950">
         <div className="absolute inset-0 opacity-20">
           <SmartImage
-            src="/src/assets/images/about-hero.jpg"
+            src={asset("/src/assets/images/hero-back-image.png")}
             alt=""
             className="h-full w-full object-cover"
           />
@@ -698,4 +699,4 @@ export default function About() {
 
     </div>
   )
-}
+}

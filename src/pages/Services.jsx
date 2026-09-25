@@ -1,6 +1,7 @@
 import PageHeader from '../components/PageHeader'
 import ServiceCard from '../components/ServiceCard'
 import { services } from '../data/services'
+import { asset } from '../utils/asset'
 
 export default function Services() {
   return (
@@ -9,7 +10,7 @@ export default function Services() {
         eyebrow="What We Do"
         title="Our Services"
         description="Full-service construction and design, from architectural drawings to final finishing."
-        image="/src/assets/images/service-hero.jpg"
+        image={asset("/src/assets/images/service-hero.jpg")}
         breadcrumb={[{ label: 'Services' }]}
       />
       <section className="container-wide py-20">

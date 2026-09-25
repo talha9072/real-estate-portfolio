@@ -1,3 +1,4 @@
+import { asset } from '../utils/asset'
 // =============================================================
 // SERVICES DATA
 // Add, remove or edit services here. Each "id" is used in the
@@ -17,8 +18,8 @@ export const services = [
     name: 'Architecture Design',
     shortDescription:
       'Custom architectural plans that balance functionality, light and long-term value.',
-    image: '/src/assets/images/services/architecture-design.jpg',
-    heroImage: '/src/assets/images/services/architecture-hero-image.jpg',
+    image: asset('/src/assets/images/services/architecture-design.jpg'),
+    heroImage: asset('/src/assets/images/services/architecture-hero-image.jpg'),
     description:
       'Our architecture team translates your requirements into buildable, efficient designs — from initial concept sketches through approved construction drawings. We work closely with structural engineers so every design is both beautiful and sound.',
     process: [
@@ -34,10 +35,10 @@ export const services = [
       'Structural coordination',
     ],
     gallery: [
-      '/src/assets/images/services/architecture-gallery-1.jpg',
-      '/src/assets/images/services/architecture-gallery-2.jpg',
+      asset('/src/assets/images/services/architecture-gallery-1.jpg'),
+      asset('/src/assets/images/services/architecture-gallery-2.jpg'),
     ],
-    video: null, // e.g. '/src/assets/videos/architecture-walkthrough.mp4'
+    video: null, // e.g. asset('/src/assets/videos/architecture-walkthrough.mp4')
   },
   {
     id: 'interior-design',
@@ -45,8 +46,8 @@ export const services = [
     name: 'Interior Design',
     shortDescription:
       'Interiors that feel considered — material palettes, lighting and layout tailored to how you live.',
-    image: '/src/assets/images/services/interior-design.jpg',
-    heroImage: '/src/assets/images/services/interior-hero-image.jpg',
+    image: asset('/src/assets/images/services/interior-design.jpg'),
+    heroImage: asset('/src/assets/images/services/interior-hero-image.jpg'),
     description:
       'From material boards to final styling, our interior design service covers every room of your home or commercial space, with a focus on durable, timeless finishes.',
     process: [
@@ -62,8 +63,8 @@ export const services = [
       'Turnkey furnishing',
     ],
     gallery: [
-      '/src/assets/images/services/interior-design-1.jpg',
-      '/src/assets/images/services/interior-design-2.jpg',
+      asset('/src/assets/images/services/interior-design-1.jpg'),
+      asset('/src/assets/images/services/interior-design-2.jpg'),
     ],
     video: null,
   },
@@ -73,8 +74,8 @@ export const services = [
     name: 'Grey Structure',
     shortDescription:
       'Foundation-to-roof structural construction, built to code with certified materials.',
-    image: '/src/assets/images/services/grey-structure.jpg',
-    heroImage: '/src/assets/images/services/graystructure-hero-image.jpg',
+    image: asset('/src/assets/images/services/grey-structure.jpg'),
+    heroImage: asset('/src/assets/images/services/graystructure-hero-image.jpg'),
     description:
       'We manage grey structure construction end to end — excavation, foundation, columns, slabs and brickwork — with quality checks at every stage.',
     process: [
@@ -90,8 +91,8 @@ export const services = [
       'Transparent progress updates',
     ],
     gallery: [
-      '/src/assets/images/services/grey-structure-design-1.jpg',
-      '/src/assets/images/services/grey-structure-design-2.jpg',
+      asset('/src/assets/images/services/grey-structure-design-1.jpg'),
+      asset('/src/assets/images/services/grey-structure-design-2.jpg'),
     ],
     video: null,
   },
@@ -101,8 +102,8 @@ export const services = [
     name: 'Finishing',
     shortDescription:
       'Flooring, paint, fixtures and final detailing that bring a project to move-in condition.',
-    image: '/src/assets/images/services/finishing-design.jpg',
-    heroImage: '/src/assets/images/services/finishing-hero-image.jpg',
+    image: asset('/src/assets/images/services/finishing-design.jpg'),
+    heroImage: asset('/src/assets/images/services/finishing-hero-image.jpg'),
     description:
       'The finishing stage covers flooring, electrical fittings, plumbing fixtures, paint and carpentry — completed to a consistent, high-end standard.',
     process: [
@@ -118,8 +119,8 @@ export const services = [
       'Snag-list resolution',
     ],
     gallery: [
-      '/src/assets/images/services/finishing-1.jpg',
-      '/src/assets/images/services/finishing-2.jpg',
+      asset('/src/assets/images/services/finishing-1.jpg'),
+      asset('/src/assets/images/services/finishing-2.jpg'),
     ],
     video: null,
   },

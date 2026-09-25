@@ -17,6 +17,7 @@ import ContactForm from '../components/ContactForm'
 
 import { siteInfo } from '../data/siteData'
 import { getWhatsAppLink } from '../utils/whatsapp'
+import { asset } from '../utils/asset'
 
 export default function Contact() {
   return (
@@ -27,7 +28,7 @@ export default function Contact() {
         eyebrow="Al Harmain Associates"
         title="Let's Talk"
         description={`Questions about a property, project, or your next build? Reach out to ${siteInfo.companyName} — we're here to help.`}
-        image="/src/assets/images/contact-hero.png"
+        image={asset("/src/assets/images/contact-hero.png")}
         breadcrumb={[{ label: 'Contact Us' }]}
       />
 

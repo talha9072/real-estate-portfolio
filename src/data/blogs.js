@@ -1,3 +1,4 @@
+import { asset } from '../utils/asset'
 // =============================================================
 // BLOG DATA
 // URL for each post: /blogs/:id
@@ -14,7 +15,7 @@ export const blogs = [
     title: 'Choosing the Right Plot Size for Your Family',
     category: 'Buying Guide',
     date: '2026-08-02',
-    featuredImage: '/src/assets/images/blogs/blog-1.png',
+    featuredImage: asset('/src/assets/images/blogs/blog-1.png'),
     excerpt:
       'Plot size affects everything from build cost to resale value. Here\u2019s how to think about it before you buy.',
     content: `Choosing a plot size is one of the first — and most consequential — decisions in building a home. Too small, and you may outgrow the space within a few years. Too large, and construction and maintenance costs climb faster than most buyers expect.
@@ -30,7 +31,7 @@ Finally, consider resale. Plot sizes that are common in your chosen block tend t
     title: 'Grey Structure vs. Finishing: Where Your Budget Really Goes',
     category: 'Construction',
     date: '2026-07-18',
-    featuredImage: '/src/assets/images/blogs/blog-2.png',
+    featuredImage: asset('/src/assets/images/blogs/blog-2.png'),
     excerpt:
       'Many first-time builders underestimate finishing costs. Here\u2019s a realistic breakdown.',
     content: `It\u2019s common for first-time builders to assume that once the grey structure is complete, the hardest — and most expensive — part is behind them. In practice, finishing often accounts for close to half of total construction cost, once flooring, fixtures, paint, kitchen and bathroom fittings are included.
@@ -46,7 +47,7 @@ Our advice: get itemized finishing estimates early, not just a single lump sum, 
     title: 'Farmhouse Living: What to Expect in the First Year',
     category: 'Lifestyle',
     date: '2026-06-30',
-    featuredImage: '/src/assets/images/blogs/blog-3.png',
+    featuredImage: asset('/src/assets/images/blogs/blog-3.png'),
     excerpt:
       'Moving from city living to a farmhouse community comes with a real adjustment period.',
     content: `Farmhouse living offers space, privacy and a slower pace that\u2019s hard to find in the city — but the first year often comes with an adjustment period. Utilities, landscaping and security work differently than in a dense residential block, and it helps to plan for that up front.

@@ -10,6 +10,7 @@ import {
 } from '../data/calculatorRates'
 import { formatPKR } from '../utils/format'
 import { getWhatsAppLink } from '../utils/whatsapp'
+import { asset } from '../utils/asset'
 
 export default function Pricing() {
   const [projectTypeId, setProjectTypeId] = useState(projectTypes[0].id)
@@ -43,7 +44,7 @@ export default function Pricing() {
         eyebrow="Pricing"
         title="Construction Cost Calculator"
         description="Get a quick, approximate estimate for your construction project."
-        image="/src/assets/images/services/architecture-hero-image.jpg"
+        image={asset("/src/assets/images/services/architecture-hero-image.jpg")}
         breadcrumb={[{ label: 'Pricing' }]}
       />
 
